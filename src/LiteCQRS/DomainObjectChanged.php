@@ -13,7 +13,7 @@ use LiteCQRS\Bus\EventMessageHeader;
 class DomainObjectChanged implements DomainEvent
 {
     /**
-     * @var MessageHeader
+     * @var EventMessageHeader
      */
     private $messageHeader;
 
